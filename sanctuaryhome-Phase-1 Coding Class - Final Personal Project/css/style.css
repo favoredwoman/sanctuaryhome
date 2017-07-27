@@ -1,0 +1,109 @@
+/* Reset */
+html, div, nav, header, section, article, img, h1, h2, h3, h4, h5, h6, ul, li, footer, container{
+  
+  margin: 0;
+  padding: 0;
+}
+
+/* fonts from google Fonts - more at https://fonts .google.com*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* remember when you choose a font-family, give at least 3 options so that the user/visitor to your website, will have greater chance that his/her computer can use at least one of the three. Choose web-safe font combination from W3school */
+
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  background-color:#7caf7d;
+  padding: 40px 0;
+  font-size: 16px; 
+}
+
+.container {
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto;    
+}
+/* flex is used below in the header because it contains both h1 and nav in the same container/box */
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:#e5da5b; 
+  min-height: 70px;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/* choose a font-size that will make the nav stand out clearly */
+
+nav {
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+nav ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+nav li a {
+  text-decoration: none; 
+  color: #9d11af;
+}
+
+
+h1 {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Open Sans', 'Arial' sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+h3 {
+    text-align:center;
+    
+  }
+
+section{
+ /*  @import url('https://fonts.googleapis.com/css?family=Open+Sans'); This is my only section and it has two articles*/
+}
+  
+#article-one {
+ background-color: #cea323;
+ padding-top: 10px;
+ padding-right: 40px;
+ padding-bottom: 5px;
+ padding-left: 40px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ min-height: 300px;
+}
+#article-one img{
+  margin: auto; 
+}
+
+#article-two {
+  padding-top: 10px;
+  background-color: #b8bc8f;
+  text-decoration: none;
+  min-height: 150px;
+  
+}
+#article-two ul {
+    padding-left: 30px;
+    padding-bottom: 20px;   
+}
+
+footer {
+  padding-top: 20px;
+  background-color: #e5da5b;
+  min-height: 70px;
+  justify-content:center;
+}
+p{
+text-align:center;
+}

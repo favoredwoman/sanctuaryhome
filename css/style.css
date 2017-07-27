@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 /* Reset */
 html, div, nav, header, section, article, img, h1, h2, h3, h4, h5, h6, ul, li, footer, container{
   
@@ -7,7 +8,7 @@ html, div, nav, header, section, article, img, h1, h2, h3, h4, h5, h6, ul, li, f
 
 /* fonts from google Fonts - more at https://fonts .google.com*/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 /* remember when you choose a font-family, give at least 3 options so that the user/visitor to your website, will have greater chance that his/her computer can use at least one of the three. Choose web-safe font combination from W3school */
 
